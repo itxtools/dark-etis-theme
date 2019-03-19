@@ -1,8 +1,11 @@
 // ==UserScript==
 // @name         dark-etis
 // @namespace    https://github.com/itxtools/dark-etis-theme
+// @updateURL    https://github.com/itxtools/dark-etis-theme/raw/master/dark-etis.user.js
+// @downloadURL  https://github.com/itxtools/dark-etis-theme/raw/master/dark-etis.user.js
+// @supportURL   https://github.com/itxtools/dark-etis-theme/issues
 // @version      1.0
-// @description  My eyes hurts, when it's so bright
+// @description  My eyes hurts, when the brightness comes
 // @author       itxtools
 // @licence      MIT
 // @match        https://student.psu.ru/*

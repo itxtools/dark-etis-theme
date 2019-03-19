@@ -4,7 +4,7 @@
 // @updateURL    https://github.com/itxtools/dark-etis-theme/raw/master/dark-etis.user.js
 // @downloadURL  https://github.com/itxtools/dark-etis-theme/raw/master/dark-etis.user.js
 // @supportURL   https://github.com/itxtools/dark-etis-theme/issues
-// @version      1.0
+// @version      1.0.1
 // @description  My eyes hurts, when the brightness comes
 // @author       itxtools
 // @licence      MIT
@@ -24,6 +24,12 @@ GM_addStyle(`
     }
     body, iframe {
       filter: invert(0.91) hue-rotate(180deg) !important;
+    }
+    .teacher_photo {
+      background-color: #2324251f;
+    }
+    .teacher_photo img {
+      border: 6px solid #252525;
     }
     :not(object):not(body)>embed, img, video, figure:empty, *[data-img], *[data-thumb-url], *[style*='background:url']:not(input), *[style*='background: url']:not(input), *[style*='background-image:url']:not(input), *[style*='background-image: url']:not(input) {
       filter: invert(1) hue-rotate(180deg) !important;

@@ -14,8 +14,8 @@
 // ==/UserScript==
 
 GM_addStyle(`
-    html {
-      background-color: rgb(30,30,30)!important 
+        html {
+      background-color: #212121 !important; // 292828 - тоже гуд
     }
     body, iframe {
       background-color:transparent!important;
@@ -34,4 +34,33 @@ GM_addStyle(`
     :-webkit-full-screen, :-webkit-full-screen * {
       filter: none !important;
     }
+	
+ul, li {
+background-color: #e6dfdf;
+}
+.day {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #e6dfdf;
+}
+
+a {
+color: #000000ad;
+}
+
+.timetable td {
+border-top: 1px solid #2324251f !important;
+    border-bottom: 1px solid #2324251f !important;
+}
+
+.timetable .pair_num {
+    border-left: 0px solid !important;
+}
+
+.teacher_photo {
+background-color: #2324251f;
+}
+.teacher_photo img {
+    border: 6px solid #252525;
+}
 `)

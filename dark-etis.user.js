@@ -43,6 +43,9 @@ background-color: #e6dfdf;
   border-radius: 4px;
   background-color: #e6dfdf;
 }
+.timetable .pair_jour {
+border-right: 0px !important;
+}
 
 a {
 color: #000000ad;

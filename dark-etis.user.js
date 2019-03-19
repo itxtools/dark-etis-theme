@@ -46,6 +46,7 @@ background-color: #e6dfdf;
 
 a {
 color: #000000ad;
+text-decoration: none !important; // меня бесит подчеркивание ссылок в расписании
 }
 
 .timetable td {

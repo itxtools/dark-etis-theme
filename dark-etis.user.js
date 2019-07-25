@@ -31,6 +31,12 @@ GM_addStyle(`
     .teacher_photo img {
       border: 6px solid #252525;
     }
+    .common tr:hover {
+        background-color: #ffffff;
+    }
+    .common tr {
+        background-color: #f7f7f7;
+    }
     :not(object):not(body)>embed, img, video, figure:empty, *[data-img], *[data-thumb-url], *[style*='background:url']:not(input), *[style*='background: url']:not(input), *[style*='background-image:url']:not(input), *[style*='background-image: url']:not(input) {
       filter: invert(1) hue-rotate(180deg) !important;
     }

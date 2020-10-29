@@ -8,13 +8,12 @@
 // @description  Can you even code
 // @author       je09
 // @licence      MIT
-// @match        https://student.psu.ru/pls/stu_cus_et/stu.signs*
-// @grant        GM_addStyle
-// @run-at       document-start
+// @match        https://student.psu.ru/pls/stu_cus_et*
 // ==/UserScript==
 
 (function() {
     'use strict';
+
     function zoomFixer(item, index) {
         var linkItem = item.getElementsByTagName("a")[0];
         if (linkItem && linkItem.href.toString().includes("%20")) {
